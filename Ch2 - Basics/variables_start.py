@@ -13,21 +13,35 @@ mylist = [0, 1, "two", 3.2, False]
 mytuple = (0, 1, 2)
 mydict = {"one" : 1, "two" : 2}
 
-print(myint)
-print(myfloat)
-print(mystr)
-print(mybool)
-print(mylist)
-print(mytuple)
-print(mydict)
+# print(myint)
+# print(myfloat)
+# print(mystr)
+# print(mybool)
+# print(mylist)
+# print(mytuple)
+# print(mydict)
 
 # re-declaring a variable works
+# myint = "abc"
+# print(myint)
 
 # to access a member of a sequence type, use []
+# print(mylist[1])
+# print(mytuple[2])
+#print(mydict[1])
 
 # use slices to get parts of a sequence
+mylist = [0, 1, 'two', 3.2, 'iiii', False, '666666']
+print(mylist)
+print(mylist[1:5])
+print(mylist[1:7:1])
+print(mylist[1:7:2])
+print(mylist[0:7:3])
+print(mylist[1:7:3])
+
 
 # you can use slices to reverse a sequence
+print(mylist[::-1])
 
 # dictionaries are accessed via keys
 
